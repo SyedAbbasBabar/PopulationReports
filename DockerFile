@@ -1,0 +1,8 @@
+# Use Java 11 image instead of 17
+FROM openjdk:11
+
+# Copy the compiled JAR file into the image
+COPY target/PopulationReports-1.0-SNAPSHOT.jar app.jar
+
+# Run the JAR file
+ENTRYPOINT ["java", "-jar", "app.jar"]
