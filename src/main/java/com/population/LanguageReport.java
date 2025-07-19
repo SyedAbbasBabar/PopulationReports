@@ -8,9 +8,11 @@ public class LanguageReport {
 
     public static void generate() {
         try {
+            // //create connection
             Connection conn = DatabaseConnector.connect();
             Statement stmt = conn.createStatement();
 
+            //SQL Query
             String query =
                 "SELECT cl.Language, " +
                 "ROUND(SUM(c.Population * cl.Percentage / 100)) AS TotalSpeakers, " +
@@ -21,7 +23,7 @@ public class LanguageReport {
                 "WHERE cl.Language IN ('Chinese', 'English', 'Spanish') " +
                 "GROUP BY cl.Language " +
                 "ORDER BY TotalSpeakers DESC";
-
+            //Execute Query
             ResultSet rs = stmt.executeQuery(query);
 
             System.out.println("\n📊 Report 8: Number of People Speaking Selected Languages");

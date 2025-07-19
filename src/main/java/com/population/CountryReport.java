@@ -8,12 +8,15 @@ public class CountryReport {
 
     public static void generate() {
         try {
+             //create connection
             Connection conn = DatabaseConnector.connect();
             Statement stmt = conn.createStatement();
 
+            //SQL Query
             String query = "SELECT Code, Name, Continent, Region, Population, Capital " +
                            "FROM country ORDER BY Population DESC";
 
+            //Execute Query
             ResultSet rs = stmt.executeQuery(query);
 
             System.out.println("\n📊 Report 1: Countries by Population (High to Low)");

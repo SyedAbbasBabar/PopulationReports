@@ -8,7 +8,8 @@ public class CapitalCityReport {
 
     public static void generate() {
         try {
-            Connection conn = DatabaseConnector.connect();  //create connection
+            //create connection
+            Connection conn = DatabaseConnector.connect();  
             Statement stmt = conn.createStatement();
 
             //SQL Query
