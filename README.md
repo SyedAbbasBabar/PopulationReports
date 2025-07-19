@@ -71,14 +71,14 @@ so that I can understand which capitals are most densely populated.
 
 | ID  | Name                                                                                           | Met | Screenshot        |
 |-----|------------------------------------------------------------------------------------------------|-----|-------------------|
-| 1   | All the countries in the world organised by largest population to smallest.                   | Yes | ![R1](screenshots/country_report.JPG) |
-| 2   | All the cities in the world organised by largest population to smallest.                      | Yes | ![R2](screenshots/city_report.JPG) |
-| 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](screenshots/capital_city_report.JPG) |
-| 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](screenshots/top_n_cities.JPG) |
-| 5   | The population of people, people living in cities, and people not living in cities in each country. | Yes | ![R5](screenshots/population_country.JPG) |
-| 6   | The population of the world.                                                                   | Yes | ![R6](screenshots/world_population.JPG) |
-| 7   | The population of a continent, region, country, district, and city.                           | Yes | ![R7](screenshots/region_population.JPG) |
-| 8   | People speaking Chinese, English, or Spanish with percentage of world population.             | Yes | ![R8](screenshots/language_report.JPG) |
+| 1   | All the countries in the world organised by largest population to smallest.                   | Yes | ![R1](ScreenShots/country_report.JPG) |
+| 2   | All the cities in the world organised by largest population to smallest.                      | Yes | ![R2](ScreenShots/city_report.JPG) |
+| 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](screenShots/capital_city_report.JPG) |
+| 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](screenShots/top_n_cities.JPG) |
+| 5   | The population of people, people living in cities, and people not living in cities in each country. | Yes | ![R5](ScreenShots/population_country.JPG) |
+| 6   | The population of the world.                                                                   | Yes | ![R6](ScreenShots/world_population.JPG) |
+| 7   | The population of a continent, region, country, district, and city.                           | Yes | ![R7](ScreenShots/region_population.JPG) |
+| 8   | People speaking Chinese, English, or Spanish with percentage of world population.             | Yes | ![R8](ScreenShots/language_report.JPG) |
 
 
 ---
