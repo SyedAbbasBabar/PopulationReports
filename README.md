@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 ![build](https://img.shields.io/github/workflow/status/mwaleed-39/PopulationReports/maven.yml/main?label=build&style=flat-square)
 
 ![Build Master](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=master)
 ![Build Develop](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=develop)
 ![Code Coverage](https://codecov.io/gh/mwaleed-39/PopulationReports/branch/master/graph/badge.svg)
+=======
+>>>>>>> 5cff7e2785ca017a2d59a5b13822e44c1a0240bf
 
 # PopulationReports
 
@@ -76,6 +79,7 @@ so that I can understand which capitals are most densely populated.
 
 | ID  | Name                                                                                           | Met | Screenshot        |
 |-----|------------------------------------------------------------------------------------------------|-----|-------------------|
+<<<<<<< HEAD
 | 1   | All the countries in the world organised by largest population to smallest.                   | Yes | ![R1](ScreenShots/country_report.JPG) |
 | 2   | All the cities in the world organised by largest population to smallest.                      | Yes | ![R2](ScreenShots/city_report.JPG) |
 | 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](ScreenShots/capital_city_report.JPG) |
@@ -84,6 +88,16 @@ so that I can understand which capitals are most densely populated.
 | 6   | The population of the world.                                                                   | Yes | ![R6](ScreenShots/world_population.JPG) |
 | 7   | The population of a continent, region, country, district, and city.                           | Yes | ![R7](ScreenShots/region_population.JPG) |
 | 8   | People speaking Chinese, English, or Spanish with percentage of world population.             | Yes | ![R8](ScreenShots/language-report.JPG) |
+=======
+| 1   | All the countries in the world organised by largest population to smallest.                   | Yes | ![R1](screenshots/country_report.JPG) |
+| 2   | All the cities in the world organised by largest population to smallest.                      | Yes | ![R2](screenshots/city_report.JPG) |
+| 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](screenshots/capital_city_report.JPG) |
+| 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](screenshots/top_n_cities.JPG) |
+| 5   | The population of people, people living in cities, and people not living in cities in each country. | Yes | ![R5](screenshots/population_country.JPG) |
+| 6   | The population of the world.                                                                   | Yes | ![R6](screenshots/world_population.JPG) |
+| 7   | The population of a continent, region, country, district, and city.                           | Yes | ![R7](screenshots/region_population.JPG) |
+| 8   | People speaking Chinese, English, or Spanish with percentage of world population.             | Yes | ![R8](screenshots/language_report.JPG) |
+>>>>>>> 5cff7e2785ca017a2d59a5b13822e44c1a0240bf
 
 
 ---
