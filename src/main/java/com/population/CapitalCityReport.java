@@ -34,7 +34,7 @@ public class CapitalCityReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Capital City Report: " + e.getMessage());
+            System.out.println("Failed to generate Capital City Report: " + e.getMessage());
         }
     }
 }

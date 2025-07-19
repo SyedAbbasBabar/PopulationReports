@@ -39,7 +39,7 @@ public class LanguageReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Language Report: " + e.getMessage());
+            System.out.println("Failed to generate Language Report: " + e.getMessage());
         }
     }
 }

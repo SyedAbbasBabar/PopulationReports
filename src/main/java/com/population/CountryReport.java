@@ -36,7 +36,7 @@ public class CountryReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Country Report: " + e.getMessage());
+            System.out.println("Failed to generate Country Report: " + e.getMessage());
         }
     }
 }

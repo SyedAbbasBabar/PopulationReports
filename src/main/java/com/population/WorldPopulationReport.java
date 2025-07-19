@@ -8,11 +8,14 @@ public class WorldPopulationReport {
 
     public static void generate() {
         try {
+            //Create Connection
             Connection conn = DatabaseConnector.connect();
             Statement stmt = conn.createStatement();
 
+            //SQL Query
             String query = "SELECT SUM(Population) AS WorldPopulation FROM country";
 
+            //Execute the SQL Query
             ResultSet rs = stmt.executeQuery(query);
 
             System.out.println("\n📊 Report 6: Total World Population");

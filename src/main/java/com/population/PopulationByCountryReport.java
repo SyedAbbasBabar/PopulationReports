@@ -42,7 +42,7 @@ public class PopulationByCountryReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Population by Country Report: " + e.getMessage());
+            System.out.println("Failed to generate Population by Country Report: " + e.getMessage());
         }
     }
 }

@@ -9,10 +9,13 @@ public class TopNCitiesReport {
 
     public static void generate() {
         try (Scanner scanner = new Scanner(System.in)) {
+            //Enter the number of top populated cities to display
             System.out.print("\n🔢 Enter the number of top populated cities to display (N): ");
             int n = scanner.nextInt();
-
+            
+            //Create COnnection
             Connection conn = DatabaseConnector.connect();
+            //SQL Query
             String query = "SELECT city.Name AS CityName, country.Name AS CountryName, " +
                            "city.District, city.Population " +
                            "FROM city JOIN country ON city.CountryCode = country.Code " +
@@ -20,7 +23,8 @@ public class TopNCitiesReport {
 
             PreparedStatement pstmt = conn.prepareStatement(query);
             pstmt.setInt(1, n);
-
+           
+            //Execute Query
             ResultSet rs = pstmt.executeQuery();
 
             System.out.println("\n📊 Report 4: Top " + n + " Populated Cities in the World");

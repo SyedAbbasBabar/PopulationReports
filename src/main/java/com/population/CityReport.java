@@ -36,7 +36,7 @@ public class CityReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate City Report: " + e.getMessage());
+            System.out.println("Failed to generate City Report: " + e.getMessage());
         }
     }
 }
