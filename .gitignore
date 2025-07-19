@@ -1,0 +1,15 @@
+# Ignore build output
+/target/
+*.class
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Others
+*.iml
