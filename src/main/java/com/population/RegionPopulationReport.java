@@ -23,7 +23,7 @@ public class RegionPopulationReport {
 
             String areaType = "";
             String query = "";
-
+           // Choose the Option, Which Report do you want?
             switch (choice) {
                 case 1:
                     areaType = "Continent";
@@ -49,17 +49,19 @@ public class RegionPopulationReport {
                     query = "SELECT Name, Population FROM city WHERE Name = ?";
                     break;
                 default:
-                    System.out.println("❌ Invalid choice.");
+                    System.out.println("Invalid choice.");
                     return;
             }
 
             System.out.print("📝 Enter the name of the " + areaType + ": ");
             String name = scanner.nextLine();
-
+            
+            // //create connection
             Connection conn = DatabaseConnector.connect();
             PreparedStatement pstmt = conn.prepareStatement(query);
             pstmt.setString(1, name);
 
+            //Execute Query
             ResultSet rs = pstmt.executeQuery();
 
             if (rs.next()) {
@@ -68,12 +70,12 @@ public class RegionPopulationReport {
                         rs.getString("Name"),
                         rs.getLong("Population"));
             } else {
-                System.out.println("❌ No data found for " + areaType + ": " + name);
+                System.out.println("No data found for " + areaType + ": " + name);
             }
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Region/Country/City Population Report: " + e.getMessage());
+            System.out.println("Failed to generate Region/Country/City Population Report: " + e.getMessage());
         }
     }
 }

@@ -6,25 +6,25 @@ public class App {
         System.out.println("============================");
 
         // Call the country report
-        // CountryReport.generate();
+         CountryReport.generate();
 
         // Call the City report
-        // CityReport.generate();
+         CityReport.generate();
 
         // Report 3: Capital Cities
-       //  CapitalCityReport.generate();
+          CapitalCityReport.generate();
 
         // Report 4: Top N Cities (User input)
-        // TopNCitiesReport.generate();
+          TopNCitiesReport.generate();
 
         // Report 5: Population in and outside cities (by country)
-        // PopulationByCountryReport.generate();
+          PopulationByCountryReport.generate();
 
         // Report 6: Total world population
-        // WorldPopulationReport.generate();
+           WorldPopulationReport.generate();
 
         // Report 7: Region/Continent/Country/City/District Population
-        // RegionPopulationReport.generate();
+          RegionPopulationReport.generate();
 
         // Report 8: Language Report
          LanguageReport.generate();

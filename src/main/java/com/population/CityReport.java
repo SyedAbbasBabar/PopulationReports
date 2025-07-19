@@ -8,14 +8,17 @@ public class CityReport {
 
     public static void generate() {
         try {
+             //create connection
             Connection conn = DatabaseConnector.connect();
             Statement stmt = conn.createStatement();
 
+            //SQL Query
             String query = "SELECT city.Name AS CityName, country.Name AS CountryName, " +
                            "city.District, city.Population " +
                            "FROM city JOIN country ON city.CountryCode = country.Code " +
                            "ORDER BY city.Population DESC";
 
+            //Execute Query
             ResultSet rs = stmt.executeQuery(query);
 
             System.out.println("\n📊 Report 2: Cities by Population (High to Low)");
@@ -33,7 +36,7 @@ public class CityReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate City Report: " + e.getMessage());
+            System.out.println("Failed to generate City Report: " + e.getMessage());
         }
     }
 }
