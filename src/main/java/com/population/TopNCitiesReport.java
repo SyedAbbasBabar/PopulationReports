@@ -42,7 +42,7 @@ public class TopNCitiesReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate Top N Cities Report: " + e.getMessage());
+            System.out.println("Failed to generate Top N Cities Report: " + e.getMessage());
         }
     }
 }

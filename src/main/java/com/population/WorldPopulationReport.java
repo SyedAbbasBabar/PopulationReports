@@ -28,7 +28,7 @@ public class WorldPopulationReport {
 
             conn.close();
         } catch (Exception e) {
-            System.out.println("❌ Failed to generate World Population Report: " + e.getMessage());
+            System.out.println("Failed to generate World Population Report: " + e.getMessage());
         }
     }
 }
