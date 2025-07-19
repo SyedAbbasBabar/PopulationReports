@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 7f8973c53761588cfe22853922d9dc62d3447a79
 # PopulationReports
 
 Java-based project for generating population reports from the MySQL `world` database, developed as part of the SET08103 – Software Engineering Methods module.
