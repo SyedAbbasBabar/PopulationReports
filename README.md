@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-![build](https://img.shields.io/github/workflow/status/mwaleed-39/PopulationReports/maven.yml/main?label=build&style=flat-square)
-
-![Build Master](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=master)
-![Build Develop](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=develop)
-![Code Coverage](https://codecov.io/gh/mwaleed-39/PopulationReports/branch/master/graph/badge.svg)
-=======
->>>>>>> 5cff7e2785ca017a2d59a5b13822e44c1a0240bf
 
 # PopulationReports
 
