@@ -8,13 +8,15 @@ public class CapitalCityReport {
 
     public static void generate() {
         try {
-            Connection conn = DatabaseConnector.connect();
+            Connection conn = DatabaseConnector.connect();  //create connection
             Statement stmt = conn.createStatement();
 
+            //SQL Query
             String query = "SELECT city.Name AS CapitalCity, country.Name AS CountryName, city.Population " +
                            "FROM city JOIN country ON city.ID = country.Capital " +
                            "ORDER BY city.Population DESC";
 
+            //Execute Query
             ResultSet rs = stmt.executeQuery(query);
 
             System.out.println("\n📊 Report 3: Capital Cities by Population (High to Low)");
