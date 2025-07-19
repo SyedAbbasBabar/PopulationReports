@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 7f8973c53761588cfe22853922d9dc62d3447a79
+=======
+>>>>>>> e7b2db30e632df4f3fb22308df30ad02d9c833c3
 # PopulationReports
 
 Java-based project for generating population reports from the MySQL `world` database, developed as part of the SET08103 – Software Engineering Methods module.
@@ -77,12 +80,17 @@ so that I can understand which capitals are most densely populated.
 | 1   | All the countries in the world organised by largest population to smallest.                   | Yes | ![R1](ScreenShots/country_report.JPG) |
 | 2   | All the cities in the world organised by largest population to smallest.                      | Yes | ![R2](ScreenShots/city_report.JPG) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](ScreenShots/capital_city_report.JPG) |
 | 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](ScreenShots/top_n_cities.JPG) |
 =======
 | 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](screenShots/capital_city_report.JPG) |
 | 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](screenShots/top_n_cities.JPG) |
 >>>>>>> 7f8973c53761588cfe22853922d9dc62d3447a79
+=======
+| 3   | All the capital cities in the world organised by largest population to smallest.              | Yes | ![R3](ScreenShots/capital_city_report.JPG) |
+| 4   | The top N populated cities in the world where N is provided by the user.                      | Yes | ![R4](ScreenShots/top_n_cities.JPG) |
+>>>>>>> e7b2db30e632df4f3fb22308df30ad02d9c833c3
 | 5   | The population of people, people living in cities, and people not living in cities in each country. | Yes | ![R5](ScreenShots/population_country.JPG) |
 | 6   | The population of the world.                                                                   | Yes | ![R6](ScreenShots/world_population.JPG) |
 | 7   | The population of a continent, region, country, district, and city.                           | Yes | ![R7](ScreenShots/region_population.JPG) |
