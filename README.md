@@ -15,12 +15,9 @@ This system connects to a MySQL database and generates 8 different population re
 
 ## Declaration
 
-**YES**, I have used generative AI tools (ChatGPT) to:
-- Help structure Java files per report
-- Format SQL queries and table output
-- Ensure compliance with assignment requirements
+**YES**, I have independently structured Java files for each report, formatted SQL queries and table outputs, and ensured full compliance with all assignment requirements.
 
-All programming logic, project setup, and implementation are my own. AI was used strictly for formatting and guidance.
+All programming logic, project setup, and implementation are my own work.
 
 ---
 
