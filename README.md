@@ -1,10 +1,3 @@
-![build](https://img.shields.io/github/workflow/status/mwaleed-39/PopulationReports/maven.yml/main?label=build&style=flat-square)
-
-![Build Master](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=master)
-![Build Develop](https://github.com/mwaleed-39/PopulationReports/actions/workflows/maven.yml/badge.svg?branch=develop)
-![Code Coverage](https://codecov.io/gh/mwaleed-39/PopulationReports/branch/master/graph/badge.svg)
-
-
 # PopulationReports
 
 Java-based project for generating population reports from the MySQL `world` database, developed as part of the SET08103 – Software Engineering Methods module.
